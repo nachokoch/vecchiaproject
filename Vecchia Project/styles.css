@@ -1,0 +1,184 @@
+/* GENERAL */
+html {   
+    scroll-behavior: smooth;
+  }
+
+body{
+    text-align: center;
+    color: white;
+}
+
+h1{
+    color: #af956a;
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h5{
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
+}
+
+hr{
+    border: 1px solid #af956a ;
+    width: 50%;    
+
+}
+
+
+/* SECTIONS */
+#home{
+    background-image: url(./images/banner1.jpg) ;
+    padding: 0 0 10% 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#quienessomos{
+    background-image: url(./images/banner2.jpg);
+    padding: 200px 0 200px 0;
+    color: black;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nuestroestilo{
+    background-image: url(./images/banner3.jpg);    
+    padding: 200px 0 200px 0;
+    color: black;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#contactate{
+    background-image: url(./images/banner4.jpg);    
+    padding: 100px 0 100px 0;
+    color: white;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#galeria{
+    background-color: black ;    
+    padding: 100px 0 100px 0;
+    color: white;
+}
+
+#gallery{
+    padding: 100px 0 0 0;
+}
+
+#footer{
+    background-color: black;
+    padding: 100px 100px;
+}
+
+
+/* SPECIFICS */
+
+#galeria img{
+    height: 30%;
+}
+
+#galeria .column {
+    flex: 50%;
+    padding: 0 0px;
+  }
+  
+  .column img {
+    margin-top: 0px;
+    vertical-align: middle;
+  }
+
+.navbar-nav{
+    padding: 1% 1% 10% 60%;
+}
+
+.arrowdown{
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+.slogan{
+    color: #af956a;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 50px;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+.form-control{
+    margin: 20px;
+}
+
+.btn{
+    background-color: #af956a;
+    color: white;
+    width: 9rem;
+}
+
+.fab{
+    width: 100px;
+}
+
+.resized{
+    font-size: 50px;
+    padding: 0 0 20px 0;
+    color: #af956a;
+}
+
+.resized:hover{
+    color:white;
+}
+
+.hoverwhite{
+    color: #af956a;
+}
+
+.hoverwhite:hover{
+    color: white;
+}
+
+.left{
+    margin-left: 0;
+    width: 75%;
+}
+
+.jumbotron{      
+    width: 100%;
+    text-align: left;
+}
+
+
+.img-fluid{
+    width: 100%
+}
+
+.fade-in{
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear{
+    opacity: 1;
+
+}
+
+@media (max-width: 576px){
+    .customo{
+        opacity: 0.5;
+        width: 100%;
+    
+    }
+}
